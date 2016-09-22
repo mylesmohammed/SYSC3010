@@ -7,6 +7,10 @@ public class AddressBook {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Address Book");
+		BuddyInfo buddy1 = new BuddyInfo("Jordan", "296 Mona Ave", 2997083);
+		ArrayList<BuddyInfo> addressbook1 = new ArrayList<BuddyInfo>();
+		addressbook1.add(buddy1);
+		addressbook1.remove(buddy1);
 	}
 	
 	public AddressBook(ArrayList<BuddyInfo> book) {
