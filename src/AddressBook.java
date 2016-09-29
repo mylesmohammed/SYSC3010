@@ -31,4 +31,8 @@ public class AddressBook {
 	public void removeBuddy(BuddyInfo buddy){
 		book.remove(buddy); //removes the buddy
 	}
+	
+	public void emptyMethod(){
+		
+	}
 }
