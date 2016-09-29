@@ -29,6 +29,6 @@ public class AddressBook {
 	}
 	
 	public void removeBuddy(BuddyInfo buddy){
-		book.remove(buddy);//
+		book.remove(buddy);
 	}
 }
